@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Imposto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="imposto.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #000000;">
+    <div class="container justify-content-center">
+        <a class="navbar-brand text-light" href="front.html">EduFiTech</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="front.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="sobre-nos.html">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Botão de Login -->
+         <a href="login.html"><button class="btn btn-light" type="button">Login</button></a>
+    </div>
+</nav>
+
+    <!-- Carousel (Slide de Imagens com Texto) -->
+    <div id="impostoCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#impostoCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#impostoCarousel" data-slide-to="1"></li>
+            <li data-target="#impostoCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/impsoto 001.jpg" class="d-block w-100" alt="Imagem 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Conheça os Impostos Federais</h5>
+                    <p style="background-color: #00000074;">Entenda quais são os tributos pagos a nível federal e sua importância.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/imposto 01.jpg" class="d-block w-100" alt="Imagem 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Impostos Estaduais</h5>
+                    <p style="background-color: #00000074;">Saiba mais sobre os impostos que impactam seu estado e a economia local.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/imposto 01.avif" class="d-block w-100" alt="Imagem 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Impostos Municipais</h5>
+                    <p style="background-color: #00000074;">Descubra como os tributos municipais afetam o dia a dia da sua cidade.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#impostoCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#impostoCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Seção de Informações -->
+    <div class="container bg-light p-4 mt-4">
+        <h4><strong style="display:flex; justify-content: center; padding-top: 40px; text-transform: uppercase; font-size: 20px;">O que é Imposto?</strong></h4>
+        <div id="video-imposto">
+            <video 
+                width="950" 
+                height="500" 
+                src="assets/oque_imposto.mp4" 
+                frameborder="0" 
+                allowfullscreen
+                controls
+                poster="assets/novo-capa.webp">
+            </video>
+        </div>
+        <p>No Brasil, os cidadãos estão sujeitos a vários tipos de impostos que são obrigatórios. Esses impostos podem ser divididos em diferentes categorias: federais, estaduais e municipais.</p>
+        <h4>Impostos Federais</h4>
+        <ul>
+            <li><strong>Imposto de Renda da Pessoa Física (IRPF):</strong> Pago por cidadãos que possuem renda tributável acima de um determinado limite. A alíquota varia conforme a renda.</li>
+            <li><strong>Imposto sobre Produtos Industrializados (IPI):</strong> Incide sobre a produção e a importação de produtos industrializados. É pago indiretamente pelos consumidores ao comprar produtos.</li>
+            <li><strong>Imposto sobre Operações Financeiras (IOF):</strong> Incide sobre operações de crédito, câmbio, seguro e títulos ou valores mobiliários. É pago por pessoas físicas e jurídicas em operações financeiras.</li>
+        </ul>
+
+        <h4>Impostos Estaduais</h4>
+        <ul>
+            <li><strong>Imposto sobre Propriedade de Veículos Automotores (IPVA):</strong> Pago por proprietários de veículos automotores, como carros, motos e caminhões. O valor varia conforme o estado e o valor do veículo.</li>
+            <li><strong>Imposto sobre Produtos Industrializados (IPI):</strong> Incide sobre a produção e a importação de produtos industrializados. É pago indiretamente pelos consumidores ao comprar produtos.</li>
+            <li><strong>Imposto sobre Operações Financeiras (IOF):</strong> Incide sobre operações de crédito, câmbio, seguro e títulos ou valores mobiliários. É pago por pessoas físicas e jurídicas em operações financeiras.</li>
+        </ul>
+
+        <h4>Impostos Municipais</h4>
+        <ul>
+            <li><strong>Imposto Predial e Territorial Urbano (IPTU):</strong> Pago por proprietários de imóveis urbanos. O valor depende da localização e do valor do imóvel.</li>
+        </ul>
+
+        <p><strong style="display:flex; justify-content: center; padding-top: 40px; text-transform: uppercase; font-size: 20px;">Como pago meus impostos?</strong></p>
+    </div>
+    </div>
+
+    <div id="video-imposto">
+        <video 
+            width="950" 
+            height="500" 
+            src="assets/COMO DECLARO IMPOSTO DE RENDA.mp4" 
+            frameborder="0" 
+            allowfullscreen
+            controls
+            poster="/assets/como declarar imposto.jpg"
+            >
+    </video>
+    </div>
+
+   
+<div class="quiz-container" style="margin-bottom: 150px;">
+    <h2 class="heading text-center">QUIZ</h2>
+    <main class="quiz">
+        <div class="content">
+            <span class="spnQtd"></span>
+            <h4 class="question"></h4>
+            <div style="justify-content: start;" class="answers"></div>
+            <div class="feedback"></div>
+        </div>
+        <div class="finish" >
+            <h4>Resultados:</h4>
+            <div class="results"></div>
+            <button class="btn btn-primary reiniciar">Reiniciar</button>
+        </div>
+    </main>
+</div>
+    
+<article>
+    <button class="topo" onclick="voltarTopo();"><img src="assets/icons8-triângulo-48.png" alt="triangulo_topo" width="30px"></button>
+</article>
+
+<script>
+     window.addEventListener('scroll', function(){
+            let scroll = document.querySelector('.topo');
+            scroll.classList.toggle('active', window.scrollY > 450);
+            
+            let introImage = document.getElementById('introImage');
+            if (window.scrollY > 50) {
+                introImage.classList.add('hidden');
+            }
+        });
+
+
+    function voltarTopo(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+</script>
+
+<script src="imposto.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| EduFITECH Cursos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Front.css">
+</head>
+<body>
+
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #000000;">
+    <div class="container justify-content-center">
+        <a class="navbar-brand text-light" href="#">EduFiTech.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="front.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="cursos.html">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="sobre-nos.html">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Botão de Login -->
+         <a href="login.html"><button class="btn btn-light" type="button">Login</button></a>
+    </div>
+</nav>
+
+
+
+  
+
+<!-- Banner -->
+<section class="banner" >
+    <div class="container">
+        <h1>Cursos Online EduFiTech</h1>
+        <p>Conheça o Novo Ambiente de Aprendizagem pensado para você</p>
+    </div>
+</section>
+
+<!-- Cursos mais acessados -->
+<div class="container my-5">
+    <h2 class="text-center">Confira nossos cursos de aprendizado</h2>
+    
+    <!-- Carousel -->
+    <div id="cursosCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-3">
+                        <a id="links" href="imposto.html">
+                        <div class="card">
+                            <img src="assets/novo-imposto.jpg" class="card-img-top" alt="Curso 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Imposto</h5>
+                                <p class="card-text">Declarações e Impostos</p>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-3">
+                        <a id="links" href="educacao.html">
+                            <div class="card">
+                                <img src="assets/novo-gestao.jpg" class="card-img-top" alt="Curso 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Educação Financeira</h5>
+                                    <p class="card-text">Gastos e Econômias</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-3">
+                        <a href="socorros.html" id="links">
+                            <div class="card">
+                                <img src="assets/novo-socorro.jpg" class="card-img-top" alt="Curso 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Primeiros Socorros</h5>
+                                    <p class="card-text">Emergências e Sinalizações</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-3">
+                        <a href="aprendizado.html" id="links">
+                            <div class="card">
+                                <img src="assets/novo-estudar.jpg" class="card-img-top" alt="Curso 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Auto Aprendizado</h5>
+                                    <p class="card-text">Práticas de Estudos</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <!-- Card 5 -->
+                    <div class="col-md-3">
+                        <a href="habilidade.html" id="links">
+                            <div class="card">
+                                <img src="assets/novo-habilidade.jpg" class="card-img-top" alt="Curso 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Habilidades para o Mercado de Trabalho</h5>
+                                    <p class="card-text">Criação de currículos, entrevistas de emprego</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-md-3">
+                        <a href="sustentabilidade.html" id="links">
+                            <div class="card">
+                                <img src="assets/novo-sustentabilidade.jpg" class="card-img-top" alt="Curso 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sustentabilidade e Consumo Consciente</h5>
+                                    <p class="card-text">Educação ambiental e conscientização</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="col-md-3">
+                        <a href="nutricao.html" id="links">
+                            <div class="card">
+                                <img src="assets/novo-nutricao.jpg" class="card-img-top" alt="Curso 7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nutrição e Saúde Mental</h5>
+                                    <p class="card-text">Uma vida mais saudável e leve</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="col-md-3">
+                        <a href="direito.html" id="links">
+                            <div class="card">
+                                <img src="assets/novo-direitos.jpg" class="card-img-top" alt="Curso 8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Direitos Trabalhistas</h5>
+                                    <p class="card-text">Proteções e beneficios legais</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="empreendedorismo.html" id="links">
+                            <div class="card">
+                                <img src="assets/novo-empreendedorismo.jpg" class="card-img-top" alt="Curso 9">
+                                <div class="card-body">
+                                    <h5 class="card-title">Empreendedorismo</h5>
+                                    <p class="card-text">Técnicas de negociação</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#cursosCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cursosCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<!-- Benefícios -->
+<section class="beneficios py-5" style="color: white; background-color: #141414; border-bottom: 2px solid black;">
+    <div class="container">
+        <h2 class="text-center" style="font-weight: bold;">Por que escolher EduFiTech?</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h4>Aprendizagem Flexível e no Seu Ritmo</h4>
+                <p>Com a EduFITECH, você aprende onde e quando quiser, com total liberdade para ajustar os horários de estudo ao seu estilo de vida. Ideal para quem tem uma rotina corrida.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Certificação Profissional de Alto Reconhecimento</h4>
+                <p>Os cursos oferecidos pela EduFITECH têm certificação reconhecida no mercado de trabalho, aumentando suas chances de promoção ou inserção em novas oportunidades.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Suporte Personalizado 24/7</h4>
+                <p>Você nunca estará sozinho! Nossa equipe de suporte está disponível 24 horas por dia para tirar dúvidas e auxiliar no seu progresso, garantindo uma experiência de aprendizagem sem barreiras.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Soluções de Problemas -->
+<section class="solucoes py-5" style="color: white; background-color: #141414;">
+    <div class="container">
+        <h2 class="text-center" style="font-weight: bold;">Como a EduFiTech Resolve Seus Desafios?</h2>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h5>Personalização Total do Plano de Estudo</h5>
+                <p>Oferecemos uma abordagem personalizada que se adapta ao seu ritmo e nível de conhecimento. Se você quer avançar mais rápido ou focar em temas específicos, o nosso sistema ajusta os cursos para suas necessidades individuais.</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Ferramentas Avançadas de Monitoramento de Progresso</h5>
+                <p>Monitore seu desempenho com gráficos e relatórios detalhados. Receba recomendações personalizadas de novos conteúdos e dicas para otimizar seus estudos com base nas suas atividades e conquistas.</p>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h5>Networking e Comunidade de Alunos</h5>
+                <p>Conecte-se com profissionais e outros alunos da sua área através de fóruns e grupos de discussão exclusivos. Amplie sua rede de contatos e aprenda com a experiência dos outros.</p>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h5>Integração com Ferramentas de Mercado</h5>
+                <p>Nossos cursos são constantemente atualizados e conectados com as mais recentes tecnologias e práticas de mercado. Você aprende utilizando ferramentas reais, preparando-se melhor para desafios profissionais.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Parceiros -->
+<section class="parceiros py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Nossas Inspirações</h2>
+        <div class="row text-center" style="padding-top: 50px;">
+            <div class="col-md-3">  
+                <img src="assets/logo-senai1.png" width="100px"  class="img-fluid" alt="Senai">
+            </div>
+            <div class="col-md-3">
+                <br>
+                <img src="assets/logo-totvs.png" width="100px" class="img-fluid" alt="Totvs">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/bradesco5687.jpg" width="100px" class="img-fluid" alt="Bradesco">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/logo-sololearn.png" width="100px" class="img-fluid" alt="Sololearn">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Vídeo de Indicações -->
+
+
+<!-- Filtros -->
+<div class="container my-5">
+    <h2 class="text-center">Áreas que abordamos</h2>
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-secondary mx-2">Tecnologia</button>
+        <button class="btn btn-secondary mx-2">Finanças</button>
+        <button class="btn btn-secondary mx-2">Saúde</button>
+        <button class="btn btn-secondary mx-2">Gestão</button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Sobre o Curso</h5>
+                <ul class="list-unstyled">
+                    <li><a href="sobre-nos.html" class="text-white">Conheça o EduFiTech</a></li>
+                    <li><a href="cursos.html" class="text-white">Cursos Online gratuitos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Institucional</h5>
+                <ul class="list-unstyled">
+                    <li><a href="Lgpd.html" class="text-white">LGPD</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <p>&copy; 2024 EduFITECH. Todos os direitos reservados.</p>
+</footer>
+
+<!-- Footer -->
+
+    
+</footer>
+<article>
+    <button class="topo" onclick="voltarTopo();"><img src="assets/icons8-triângulo-48.png" alt="triangulo_topo" width="30px"></button>
+</article>
+
+<script>
+     window.addEventListener('scroll', function(){
+            let scroll = document.querySelector('.topo');
+            scroll.classList.toggle('active', window.scrollY > 450);
+            
+            let introImage = document.getElementById('introImage');
+            if (window.scrollY > 50) {
+                introImage.classList.add('hidden');
+            }
+        });
+
+
+    function voltarTopo(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+</script>
+
+
+</body>
+</html>
+
+

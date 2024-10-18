@@ -1,0 +1,78 @@
+body{
+    padding-top: 100px;
+}
+
+.topo {
+    outline: none;
+    border-width: 2px;
+    border: solid;
+    border-color: #0077ff; /* Verde Escuro */
+    background-color: #FFFFFF; /* Branco */
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 10px;
+    box-shadow: 0 1px 6px 2px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    bottom: 97px;
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+
+.topo.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.topo img {
+    background-color: #FFFFFF; /* Branco */
+}
+
+.card {
+    margin: 10px;
+}
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Ribbon Styling */
+.ribbon {
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    background-color: #28a787;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: rotate(-45deg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
